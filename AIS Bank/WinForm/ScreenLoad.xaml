@@ -1,0 +1,37 @@
+﻿<Window x:Class="AIS_Bank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AIS_Bank"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="600" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="АИС Банк" HorizontalAlignment="Left" Margin="214,54,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-24.012"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="7.484"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Image HorizontalAlignment="Left" Height="171" Margin="150,109,0,0" VerticalAlignment="Top" Width="256"  Stretch="Fill" Source="/AIS Bank;component/Image/PicSL.ico"/>
+        <ProgressBar Name="MyprogressBar" HorizontalAlignment="Left" Height="24" Margin="0,320,-0.4,0" VerticalAlignment="Top" Width="594" BorderBrush="#FFAEAEAE" Background="#FF158AB6"/>
+        <Label Content="Подгрузка модулей АИС" Foreground="DarkBlue" HorizontalAlignment="Left" Margin="16,283,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-24.012"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="7.484"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Name="ProgresBar" Content="%" Foreground="Black" HorizontalAlignment="Left" Margin="274,285,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" RenderTransformOrigin="0.5,0.5" Width="68" Height="35">
+
+        </Label>
+
+    </Grid>
+</Window>
