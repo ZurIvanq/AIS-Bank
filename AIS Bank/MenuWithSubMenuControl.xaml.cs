@@ -25,7 +25,7 @@ namespace Выставка_Elite.CustomControls
         {
             InitializeComponent();
             //Binding our ViewModel with the datacontext to read the Menu & SubMenuItemsData
-            
+            DataContext = new SideMenuViewModel();
         }
 
         public Thickness SubMenuPadding

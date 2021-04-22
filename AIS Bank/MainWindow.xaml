@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AIS_Bank"
         mc:Ignorable="d"
-        Title="Выставка_Elite" 
-        Height="768" 
+        Title="MainWindow" Height="768" 
         Width="1024" WindowStartupLocation="CenterScreen">
     <Grid>
         <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden"/>
