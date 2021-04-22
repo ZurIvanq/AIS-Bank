@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
+
 namespace AIS_Bank.WinForm
 {
     /// <summary>
@@ -40,7 +41,7 @@ namespace AIS_Bank.WinForm
             {
                 MyprogressBar.Value = 0;
                 dt.Stop();
-                Login LG = new Login();
+                 Login LG = new Login();
                 LG.Show();
                 this.Close();
             }

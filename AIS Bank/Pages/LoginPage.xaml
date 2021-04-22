@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AIS_Bank.Pages"
-      xmlns:CustomControls="clr-namespace:AIS_Bank.CustomControls"
+      xmlns:CustomControls="clr-namespace:Выставка_Elite.CustomControls"
       Background="WhiteSmoke"
       mc:Ignorable="d" 
       HorizontalAlignment="Stretch"

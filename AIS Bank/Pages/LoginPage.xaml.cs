@@ -28,10 +28,9 @@ namespace AIS_Bank.Pages
         MainWindow mainWindow { get => Application.Current.MainWindow as MainWindow; }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-           
-            mainWindow.Close();
-            
+            ScreenLoad SL = new ScreenLoad();
+            SL.Show();
+            Application.Current.MainWindow.Close();
         }
     }
 }

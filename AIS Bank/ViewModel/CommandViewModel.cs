@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Input;
-using System.Threading.Tasks;
 
-namespace AIS_Bank.ViewModel
+namespace Выставка_Elite.ViewModel
 {
     public class CommandViewModel : ICommand
     {

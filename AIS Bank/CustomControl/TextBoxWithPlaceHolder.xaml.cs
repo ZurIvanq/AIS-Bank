@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AIS_Bank.CustomControl
+namespace Выставка_Elite.CustomControls
 {
     /// <summary>
     /// Логика взаимодействия для TextBoxWithPlaceHolder.xaml
@@ -24,6 +24,8 @@ namespace AIS_Bank.CustomControl
         {
             InitializeComponent();
         }
+
+
 
         public string PlaceHolder
         {
